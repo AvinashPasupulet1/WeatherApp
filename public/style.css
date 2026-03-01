@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("https://yotta.com/wp-content/uploads/2024/02/how-hpc-drives-efficiency-and-accuracy-in-weather-forecasts.jpg"); /* ✅ fixed path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-box {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(2px); 
+  border: 1px solid #333;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  color: #000; 
+}
+.weather-box h1 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #040303;
+}
+
+.weather-box input {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.weather-box button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.result-box {
+  background-color: gray;
+  color: cyan;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: none; 
+}
